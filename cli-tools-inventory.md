@@ -55,6 +55,10 @@ Generado: 2026-09-12
 | PowerToys (Preview) x64 | 0.87.1 | winget (`Microsoft.PowerToys`) |
 | Windows Terminal | 1.24.11911.0 | winget (`Microsoft.WindowsTerminal`) |
 | Notepads App | 1.5.6.0 | Microsoft Store (`9NHL4NSC67WM`) |
+| oh-my-posh | 29.14.0 | winget (`JanDeDobbeleer.OhMyPosh`) — tema por defecto, sin `--config` custom en el perfil |
+| Fuente Nerd Font | MesloLGLDZ (y variantes Meslo/Monoid) | `oh-my-posh font install meslo` |
+
+`$PROFILE` (`Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1`) tiene una sola línea: `oh-my-posh init pwsh | Invoke-Expression`. Windows Terminal usa `MesloLGLDZ Nerd Font Propo` como fuente del perfil "Windows PowerShell" (el que es default).
 
 ## VS Code — extensiones instaladas
 `anthropic.claude-code`, `ms-python.python`, `ms-python.vscode-pylance`, `ms-python.debugpy`, `ms-python.vscode-python-envs`, `ms-dotnettools.csdevkit`, `ms-dotnettools.csharp`, `ms-dotnettools.vscode-dotnet-runtime`, `ms-vscode.powershell`, `denoland.vscode-deno`, `justjavac.vscode-deno-extensionpack`, `laurencebahiirwa.deno-std-lib-snippets`, `bmewburn.vscode-intelephense-client`, `ecmel.vscode-html-css`, `magnonmatos.crewai-snippets`, `markdownviewer.enhanced-md-editor`, `openai.chatgpt`.
